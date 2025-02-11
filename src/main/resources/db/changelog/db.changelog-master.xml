@@ -5,4 +5,5 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
 		https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
     <include file="create_table_telegram_users.xml" relativeToChangelogFile="true"/>
+    <include file="create_tasks_table.yml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
