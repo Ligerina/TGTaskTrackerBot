@@ -22,6 +22,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
 	implementation 'org.liquibase:liquibase-core'
+	implementation 'net.lbruun.springboot:preliquibase-spring-boot-starter:1.6.0'
 
 	runtimeOnly 'org.postgresql:postgresql'
 
@@ -32,6 +33,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
 	implementation("org.telegram:telegrambots:5.6.0")
+	implementation("org.telegram:telegrambots-spring-boot-starter:6.5.0")
 
 }
 
